@@ -27,7 +27,7 @@ public class ReactMaterialKitPackage implements ReactPackage {
         return Collections.emptyList();
     }
 
-    @Override
+    // Deprecated RN 0.47
     public List<ViewManager> createViewManagers(ReactApplicationContext reactApplicationContext) {
         return Arrays.<ViewManager>asList(
                 new MKTouchableManager(),
